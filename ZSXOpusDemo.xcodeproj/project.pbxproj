@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F8CC054230EAE2800E1CBBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC053230EAE2800E1CBBA /* AppDelegate.m */; };
+		5F8CC057230EAE2800E1CBBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC056230EAE2800E1CBBA /* ViewController.m */; };
+		5F8CC05A230EAE2800E1CBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CC058230EAE2800E1CBBA /* Main.storyboard */; };
+		5F8CC05C230EAE2900E1CBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CC05B230EAE2900E1CBBA /* Assets.xcassets */; };
+		5F8CC05F230EAE2900E1CBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8CC05D230EAE2900E1CBBA /* LaunchScreen.storyboard */; };
+		5F8CC062230EAE2A00E1CBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC061230EAE2A00E1CBBA /* main.m */; };
+		5F8CC06C230EAE2A00E1CBBA /* ZSXOpusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC06B230EAE2A00E1CBBA /* ZSXOpusDemoTests.m */; };
+		5F8CC077230EAE2A00E1CBBA /* ZSXOpusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC076230EAE2A00E1CBBA /* ZSXOpusDemoUITests.m */; };
+		5F8CC08A230EAE6000E1CBBA /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8CC087230EAE6000E1CBBA /* libopus.a */; };
+		5F8CC08D230EAEA100E1CBBA /* ZSXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC08C230EAEA100E1CBBA /* ZSXAudioManager.m */; };
+		5F8CC091230EB21500E1CBBA /* ZSXOpusCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC090230EB21500E1CBBA /* ZSXOpusCodec.m */; };
+		5F8CC094230EB5B500E1CBBA /* ZSXPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CC093230EB5B500E1CBBA /* ZSXPlotView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F8CC068230EAE2A00E1CBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8CC047230EAE2800E1CBBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8CC04E230EAE2800E1CBBA;
+			remoteInfo = ZSXOpusDemo;
+		};
+		5F8CC073230EAE2A00E1CBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8CC047230EAE2800E1CBBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8CC04E230EAE2800E1CBBA;
+			remoteInfo = ZSXOpusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F8CC04F230EAE2800E1CBBA /* ZSXOpusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSXOpusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8CC052230EAE2800E1CBBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F8CC053230EAE2800E1CBBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F8CC055230EAE2800E1CBBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F8CC056230EAE2800E1CBBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F8CC059230EAE2800E1CBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F8CC05B230EAE2900E1CBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F8CC05E230EAE2900E1CBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F8CC060230EAE2A00E1CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8CC061230EAE2A00E1CBBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F8CC067230EAE2A00E1CBBA /* ZSXOpusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSXOpusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8CC06B230EAE2A00E1CBBA /* ZSXOpusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSXOpusDemoTests.m; sourceTree = "<group>"; };
+		5F8CC06D230EAE2A00E1CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8CC072230EAE2A00E1CBBA /* ZSXOpusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSXOpusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8CC076230EAE2A00E1CBBA /* ZSXOpusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSXOpusDemoUITests.m; sourceTree = "<group>"; };
+		5F8CC078230EAE2A00E1CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8CC085230EAE6000E1CBBA /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
+		5F8CC086230EAE6000E1CBBA /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
+		5F8CC087230EAE6000E1CBBA /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		5F8CC088230EAE6000E1CBBA /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
+		5F8CC089230EAE6000E1CBBA /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
+		5F8CC08B230EAEA100E1CBBA /* ZSXAudioManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSXAudioManager.h; sourceTree = "<group>"; };
+		5F8CC08C230EAEA100E1CBBA /* ZSXAudioManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSXAudioManager.m; sourceTree = "<group>"; };
+		5F8CC08E230EAF3C00E1CBBA /* AudioDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDefine.h; sourceTree = "<group>"; };
+		5F8CC08F230EB21500E1CBBA /* ZSXOpusCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSXOpusCodec.h; sourceTree = "<group>"; };
+		5F8CC090230EB21500E1CBBA /* ZSXOpusCodec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSXOpusCodec.m; sourceTree = "<group>"; };
+		5F8CC092230EB5B500E1CBBA /* ZSXPlotView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSXPlotView.h; sourceTree = "<group>"; };
+		5F8CC093230EB5B500E1CBBA /* ZSXPlotView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSXPlotView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8CC04C230EAE2800E1CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC08A230EAE6000E1CBBA /* libopus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC064230EAE2A00E1CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC06F230EAE2A00E1CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8CC046230EAE2800E1CBBA = {
+			isa = PBXGroup;
+			children = (
+				5F8CC051230EAE2800E1CBBA /* ZSXOpusDemo */,
+				5F8CC06A230EAE2A00E1CBBA /* ZSXOpusDemoTests */,
+				5F8CC075230EAE2A00E1CBBA /* ZSXOpusDemoUITests */,
+				5F8CC050230EAE2800E1CBBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8CC050230EAE2800E1CBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC04F230EAE2800E1CBBA /* ZSXOpusDemo.app */,
+				5F8CC067230EAE2A00E1CBBA /* ZSXOpusDemoTests.xctest */,
+				5F8CC072230EAE2A00E1CBBA /* ZSXOpusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8CC051230EAE2800E1CBBA /* ZSXOpusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC084230EAE6000E1CBBA /* lib */,
+				5F8CC052230EAE2800E1CBBA /* AppDelegate.h */,
+				5F8CC053230EAE2800E1CBBA /* AppDelegate.m */,
+				5F8CC055230EAE2800E1CBBA /* ViewController.h */,
+				5F8CC056230EAE2800E1CBBA /* ViewController.m */,
+				5F8CC08B230EAEA100E1CBBA /* ZSXAudioManager.h */,
+				5F8CC08C230EAEA100E1CBBA /* ZSXAudioManager.m */,
+				5F8CC08F230EB21500E1CBBA /* ZSXOpusCodec.h */,
+				5F8CC090230EB21500E1CBBA /* ZSXOpusCodec.m */,
+				5F8CC092230EB5B500E1CBBA /* ZSXPlotView.h */,
+				5F8CC093230EB5B500E1CBBA /* ZSXPlotView.m */,
+				5F8CC08E230EAF3C00E1CBBA /* AudioDefine.h */,
+				5F8CC058230EAE2800E1CBBA /* Main.storyboard */,
+				5F8CC05B230EAE2900E1CBBA /* Assets.xcassets */,
+				5F8CC05D230EAE2900E1CBBA /* LaunchScreen.storyboard */,
+				5F8CC060230EAE2A00E1CBBA /* Info.plist */,
+				5F8CC061230EAE2A00E1CBBA /* main.m */,
+			);
+			path = ZSXOpusDemo;
+			sourceTree = "<group>";
+		};
+		5F8CC06A230EAE2A00E1CBBA /* ZSXOpusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC06B230EAE2A00E1CBBA /* ZSXOpusDemoTests.m */,
+				5F8CC06D230EAE2A00E1CBBA /* Info.plist */,
+			);
+			path = ZSXOpusDemoTests;
+			sourceTree = "<group>";
+		};
+		5F8CC075230EAE2A00E1CBBA /* ZSXOpusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC076230EAE2A00E1CBBA /* ZSXOpusDemoUITests.m */,
+				5F8CC078230EAE2A00E1CBBA /* Info.plist */,
+			);
+			path = ZSXOpusDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F8CC084230EAE6000E1CBBA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F8CC085230EAE6000E1CBBA /* opus.h */,
+				5F8CC086230EAE6000E1CBBA /* opus_multistream.h */,
+				5F8CC087230EAE6000E1CBBA /* libopus.a */,
+				5F8CC088230EAE6000E1CBBA /* opus_types.h */,
+				5F8CC089230EAE6000E1CBBA /* opus_defines.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8CC04E230EAE2800E1CBBA /* ZSXOpusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8CC07B230EAE2A00E1CBBA /* Build configuration list for PBXNativeTarget "ZSXOpusDemo" */;
+			buildPhases = (
+				5F8CC04B230EAE2800E1CBBA /* Sources */,
+				5F8CC04C230EAE2800E1CBBA /* Frameworks */,
+				5F8CC04D230EAE2800E1CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSXOpusDemo;
+			productName = ZSXOpusDemo;
+			productReference = 5F8CC04F230EAE2800E1CBBA /* ZSXOpusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F8CC066230EAE2A00E1CBBA /* ZSXOpusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8CC07E230EAE2A00E1CBBA /* Build configuration list for PBXNativeTarget "ZSXOpusDemoTests" */;
+			buildPhases = (
+				5F8CC063230EAE2A00E1CBBA /* Sources */,
+				5F8CC064230EAE2A00E1CBBA /* Frameworks */,
+				5F8CC065230EAE2A00E1CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8CC069230EAE2A00E1CBBA /* PBXTargetDependency */,
+			);
+			name = ZSXOpusDemoTests;
+			productName = ZSXOpusDemoTests;
+			productReference = 5F8CC067230EAE2A00E1CBBA /* ZSXOpusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F8CC071230EAE2A00E1CBBA /* ZSXOpusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8CC081230EAE2A00E1CBBA /* Build configuration list for PBXNativeTarget "ZSXOpusDemoUITests" */;
+			buildPhases = (
+				5F8CC06E230EAE2A00E1CBBA /* Sources */,
+				5F8CC06F230EAE2A00E1CBBA /* Frameworks */,
+				5F8CC070230EAE2A00E1CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8CC074230EAE2A00E1CBBA /* PBXTargetDependency */,
+			);
+			name = ZSXOpusDemoUITests;
+			productName = ZSXOpusDemoUITests;
+			productReference = 5F8CC072230EAE2A00E1CBBA /* ZSXOpusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8CC047230EAE2800E1CBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "郑胜昔";
+				TargetAttributes = {
+					5F8CC04E230EAE2800E1CBBA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					5F8CC066230EAE2A00E1CBBA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5F8CC04E230EAE2800E1CBBA;
+					};
+					5F8CC071230EAE2A00E1CBBA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5F8CC04E230EAE2800E1CBBA;
+					};
+				};
+			};
+			buildConfigurationList = 5F8CC04A230EAE2800E1CBBA /* Build configuration list for PBXProject "ZSXOpusDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8CC046230EAE2800E1CBBA;
+			productRefGroup = 5F8CC050230EAE2800E1CBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8CC04E230EAE2800E1CBBA /* ZSXOpusDemo */,
+				5F8CC066230EAE2A00E1CBBA /* ZSXOpusDemoTests */,
+				5F8CC071230EAE2A00E1CBBA /* ZSXOpusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F8CC04D230EAE2800E1CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC05F230EAE2900E1CBBA /* LaunchScreen.storyboard in Resources */,
+				5F8CC05C230EAE2900E1CBBA /* Assets.xcassets in Resources */,
+				5F8CC05A230EAE2800E1CBBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC065230EAE2A00E1CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC070230EAE2A00E1CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8CC04B230EAE2800E1CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC057230EAE2800E1CBBA /* ViewController.m in Sources */,
+				5F8CC094230EB5B500E1CBBA /* ZSXPlotView.m in Sources */,
+				5F8CC062230EAE2A00E1CBBA /* main.m in Sources */,
+				5F8CC08D230EAEA100E1CBBA /* ZSXAudioManager.m in Sources */,
+				5F8CC091230EB21500E1CBBA /* ZSXOpusCodec.m in Sources */,
+				5F8CC054230EAE2800E1CBBA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC063230EAE2A00E1CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC06C230EAE2A00E1CBBA /* ZSXOpusDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8CC06E230EAE2A00E1CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8CC077230EAE2A00E1CBBA /* ZSXOpusDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F8CC069230EAE2A00E1CBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8CC04E230EAE2800E1CBBA /* ZSXOpusDemo */;
+			targetProxy = 5F8CC068230EAE2A00E1CBBA /* PBXContainerItemProxy */;
+		};
+		5F8CC074230EAE2A00E1CBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8CC04E230EAE2800E1CBBA /* ZSXOpusDemo */;
+			targetProxy = 5F8CC073230EAE2A00E1CBBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F8CC058230EAE2800E1CBBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8CC059230EAE2800E1CBBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F8CC05D230EAE2900E1CBBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8CC05E230EAE2900E1CBBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F8CC079230EAE2A00E1CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F8CC07A230EAE2A00E1CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F8CC07C230EAE2A00E1CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6APNYPDCZ;
+				INFOPLIST_FILE = ZSXOpusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZSXOpusDemo/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengshengxi.ZSXOpusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F8CC07D230EAE2A00E1CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6APNYPDCZ;
+				INFOPLIST_FILE = ZSXOpusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZSXOpusDemo/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengshengxi.ZSXOpusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F8CC07F230EAE2A00E1CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSXOpusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengshengxi.ZSXOpusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSXOpusDemo.app/ZSXOpusDemo";
+			};
+			name = Debug;
+		};
+		5F8CC080230EAE2A00E1CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSXOpusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengshengxi.ZSXOpusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSXOpusDemo.app/ZSXOpusDemo";
+			};
+			name = Release;
+		};
+		5F8CC082230EAE2A00E1CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSXOpusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengshengxi.ZSXOpusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZSXOpusDemo;
+			};
+			name = Debug;
+		};
+		5F8CC083230EAE2A00E1CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSXOpusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengshengxi.ZSXOpusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZSXOpusDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8CC04A230EAE2800E1CBBA /* Build configuration list for PBXProject "ZSXOpusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8CC079230EAE2A00E1CBBA /* Debug */,
+				5F8CC07A230EAE2A00E1CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8CC07B230EAE2A00E1CBBA /* Build configuration list for PBXNativeTarget "ZSXOpusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8CC07C230EAE2A00E1CBBA /* Debug */,
+				5F8CC07D230EAE2A00E1CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8CC07E230EAE2A00E1CBBA /* Build configuration list for PBXNativeTarget "ZSXOpusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8CC07F230EAE2A00E1CBBA /* Debug */,
+				5F8CC080230EAE2A00E1CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8CC081230EAE2A00E1CBBA /* Build configuration list for PBXNativeTarget "ZSXOpusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8CC082230EAE2A00E1CBBA /* Debug */,
+				5F8CC083230EAE2A00E1CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8CC047230EAE2800E1CBBA /* Project object */;
+}
